@@ -244,6 +244,42 @@ img { max-width: 100%; display: block; }
 .footer-bottom { display: flex; justify-content: space-between; gap: 20px; padding-top: 16px; color: #8a989f; font-size: 9px; }
 .footer-bottom a { color: var(--color-primary); font-weight: 700; }
 
+
+
+
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.project-link-outline {
+  background: transparent !important;
+  color: var(--color-text) !important;
+  border: 1.5px solid var(--color-border) !important;
+}
+
+.project-link-outline:hover {
+  background: var(--color-surface-soft) !important;
+  border-color: var(--color-primary) !important;
+  color: var(--color-primary) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1200px) { .container { max-width: var(--container-width); } }
 @media (max-width: 991.98px) {
   .site-nav { min-height: 70px; }
